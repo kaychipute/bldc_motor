@@ -108,6 +108,7 @@ int main(void)
 
 	  ///////////////////////////////////////////
 
+	  // HAL_Delay(delay_ms);	// add dead-time if you want
 
 	  ////////////// STEP 2 ////////////////////
 	  HAL_GPIO_WritePin(AH_GPIO_Port, AH_Pin, 1);
@@ -121,6 +122,7 @@ int main(void)
 
 	  ///////////////////////////////////////////
 
+    // HAL_Delay(delay_ms);	// add dead-time if you want
 
 	  ////////////// STEP 3 ////////////////////
 	  HAL_GPIO_WritePin(AH_GPIO_Port, AH_Pin, 1);
@@ -134,6 +136,7 @@ int main(void)
 
 	  ///////////////////////////////////////////
 
+    // HAL_Delay(delay_ms);	// add dead-time if you want
 
 	  ////////////// STEP 4 ////////////////////
 	  HAL_GPIO_WritePin(AH_GPIO_Port, AH_Pin, 0);
@@ -147,6 +150,7 @@ int main(void)
 
 	  ///////////////////////////////////////////
 
+    // HAL_Delay(delay_ms);	// add dead-time if you want
 
 	  ////////////// STEP 5 ////////////////////
 	  HAL_GPIO_WritePin(AH_GPIO_Port, AH_Pin, 1);
@@ -159,6 +163,7 @@ int main(void)
 	  HAL_GPIO_WritePin(CL_GPIO_Port, CL_Pin, 0);
 	  ///////////////////////////////////////////
 
+	  // HAL_Delay(delay_ms);	// add dead-time if you want
 
 	  ////////////// STEP 6 ////////////////////
 	  HAL_GPIO_WritePin(AH_GPIO_Port, AH_Pin, 0);
@@ -171,7 +176,8 @@ int main(void)
 	  HAL_GPIO_WritePin(CL_GPIO_Port, CL_Pin, 0);
 
 	  ///////////////////////////////////////////
-	  HAL_Delay(delay_ms);
+    
+	  // HAL_Delay(delay_ms);	// add dead-time if you want
   }
   /* USER CODE END 3 */
 }
